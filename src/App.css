@@ -1,0 +1,28 @@
+
+.main-content {
+  min-height: 60vh;
+  margin: 50px 0;
+}
+
+h5 {
+  margin: 50px 0
+}
+
+.main-content .btn a {
+  color: #fff
+}
+
+.main-content .toast {
+  top: 0;
+  margin-top: 0;
+  float: initial;
+}
+
+.main-content .badge {
+  display: flex;
+  align-items: center;
+}
+.new-ingr__wrap {
+  display: flex;
+  align-items: center;
+}
