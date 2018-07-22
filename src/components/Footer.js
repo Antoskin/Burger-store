@@ -10,8 +10,8 @@ export default class Futer extends Component {
                 <Footer copyrights="2018"
                     links={
                         <ul>
-                            <li> <Link to="/">EXITING BURGERS </Link></li>
-                            <li> <Link to="/new">CREATE NEW ONE</Link></li>
+                            <li> <Link to="/">БУРГЕРЫ</Link></li>
+                            <li> <Link to="/new">СДЕЛАТЬ БУРГЕР</Link></li>
                         </ul>
                     }
                     className='green darken-3'

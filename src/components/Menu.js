@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { SideNav, SideNavItem, Button } from 'react-materialize'
 import { Link } from 'react-router-dom'
+import img from './bur.jpg'
 
 export default class Menu extends Component {
     render() {
@@ -10,12 +11,13 @@ export default class Menu extends Component {
                     >
                     <SideNavItem userView
                         user={{
-                        name: 'Unit city',
-                        email: 'unit@gmail.com'
+                        background: img,
+                        name: 'Burger shop',
+                        email: 'example@gmail.com'
                         }}
                     />
-                    <Link to="/" >EXITING BURGERS </Link>
-                    <Link to="/new">CREATE NEW ONE</Link>
+                    <Link to="/" >БУРГЕРЫ </Link>
+                    <Link to="/new">СДЕЛАТЬ БУРГЕР</Link>
                           
                 </SideNav>
      
